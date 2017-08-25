@@ -15,7 +15,7 @@ $ git clone https://github.com/bebslab/vsc_weatherapp_swift/.git
 2) Install pods
 
 ```bash
-$ cd WeatherApp
+$ cd vsc_weatherapp_swift
 $ pod install
 ```
 
