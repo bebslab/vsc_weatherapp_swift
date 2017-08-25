@@ -1,5 +1,5 @@
 # vsc_weatherapp_swift
-SwiftWeather is an iOS weather app developed in Swift 3. The app has been actively upgrading to adopt the latest features of iOS and Swift language.
+WeatherAPP is an iOS weather app developed in Swift 3. The app has been actively upgrading to adopt the latest features of iOS and Swift language.
 
 ## Notices
 The current version is working with Xcode Version 8. If you are using different Xcode version, please check out the previous releases. 
