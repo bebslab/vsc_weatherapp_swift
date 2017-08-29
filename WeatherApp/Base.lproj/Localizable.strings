@@ -1,0 +1,87 @@
+/*
+ Localizable.strings
+   WeatherApp
+ 
+   Created by Hubert LABORDE on 22/08/2017.
+   Copyright © 2017 Hubert LABORDE. All rights reserved.
+ */
+
+
+// MARK: - SetPermissionsViewController
+
+SetPermissionsVC_NavigationBarTitle = "Location Access";
+
+SetPermissionsVC_Description = "In order to use NearbyWeather's full functionality and get weather data for nearby places, your location is required. Example location data will be used while access is denied.";
+SetPermissionsVC_AskPermissionsButtonTitle = "Configure";
+
+
+// MARK: - WeatherTableViewController
+WeatherListTVC_NavigationItemTitle = "weather";
+WeatherListTVC_TableViewSectionHeader1 = "Weather today";
+WeatherListTVC_TableViewSectionHeader2 = "Weather for the next day";
+
+WeatherListTVC_RefreshPullHandle = "Pull to refresh";
+
+WeatherListTVC_LocationAlert_Title = "Current Location Access Denied";
+WeatherListTVC_LocationAlert_Message = "In order to provide weather data of nearby cities, your current location is required. You have denied NearbyWeather access to your location data. This can be changed within Settings. While your location is not determinable, sample coordinates will be used.";
+WeatherListTVC_LocationAlert_Action1 = "Dismiss";
+WeatherListTVC_LocationAlert_Action2 = "Settings";
+
+WeatherListTVC_SortAlert_Cancel = "Cancel";
+
+
+WeatherListTVC_BackButtonTitle = "Back";
+
+WeatherListTVC_AlertNoData = "Data could not be loaded. Ensure that you have a network connection and your API key is correctly entered.";
+WeatherListTVC_AlertBanner_Network_OK = "Connection OK!";
+WeatherListTVC_AlertBanner_Network_KO = "No internet Connection...";
+
+
+
+// MARK: - InfoTableViewController
+
+InfoTVC_NavigationItemTitle = "About";
+
+InfoTVC_TableViewSectionHeader2 = "Legend";
+InfoTVC_TableViewSectionHeader3 = "Resources";
+InfoTVC_TableViewSectionHeader4 = "Contributors";
+InfoTVC_TableViewSectionHeader5 = "Mentions";
+
+InfoTVC_TableViewSectionFooter5 = "Info Icon, Sorting Icon, Settings Icon";
+
+InfoTVC_AppTitle = "WeatherApp - VSC";
+InfoTVC_AppVersion = "Version 1.0";
+
+InfoTVC_Support = "Support";
+InfoTVC_Source = "Source Code";
+InfoTVC_Icons = "Icons by";
+
+InfoTVC_Legend_Temperature = "🌡 Temperature";
+InfoTVC_Legend_CloudCover = "☁️ Cloud Cover";
+InfoTVC_Legend_Humidity = "💧 Humidity";
+InfoTVC_Legend_WindSpeed = "💨 Wind Speed";
+
+
+// MARK: - SettingsTableViewController
+
+SettingsTVC_BackButtonTitle = "Weather";
+
+SettingsTVC_NavigationBarTitle = "Settings";
+
+SettingsTVC_SectionTitle1 = "Favourited City";
+SettingsTVC_SectionTitle2 = "Open Weather Map API Key";
+SettingsTVC_SectionTitle3 = "Amount of Search Results";
+SettingsTVC_SectionTitle4 = "Temperature Unit";
+
+SettingsTVC_Results = "Results";
+
+
+// MARK: - SettingsInputTableViewController
+
+SettingsInputTVC_NavigationBarTitle_Mode_EnterFavoritedLocation = "Set City";
+SettingsInputTVC_NavigationBarTitle_Mode_EnterAPIKey = "Set API Key";
+
+InputSettingsTVC_SectionTitle_Mode_EnterFavoritedLocation = "Enter City Name";
+InputSettingsTVC_SectionTitle_Mode_EnterAPIKey = "Enter API Key";
+
+InputSettingsTVC_SectionFooter_Mode_EnterAPIKey = "The API Key has a length of exactly 32 characters.";
