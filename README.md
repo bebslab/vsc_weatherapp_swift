@@ -9,7 +9,7 @@ The current version is working with Xcode Version 8. If you are using different 
 1) Clone the repository
 
 ```bash
-$ git clone https://github.com/bebslab/vsc_weatherapp_swift/.git
+$ git clone https://github.com/bebslab/vsc_weatherapp_swift/
 ```
 
 2) Install pods
